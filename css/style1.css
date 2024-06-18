@@ -1,0 +1,30 @@
+body{
+    background: url('../imagini/pagacasa.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+table{
+    width: 100%;
+    font-family: Times New Roman;
+}
+
+th{
+    
+    border: 2px solid rgb(23, 235, 41);
+    border-left: none;
+    border-right: none;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 8px;
+}
+
+tr:hover {background-color: #48ce5c;}
+th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
